@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tony Medina - Profile Card</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #4f5154;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .profile-card {
+            background-color: #31404f;
+            border-radius: 12px;
+            padding: 20px;
+            width: 350px;
+            text-align: center;
+            color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .profile-header {
+            margin-bottom: 20px;
+        }
+
+        .profile-picture {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        h2 {
+            margin: 10px 0 5px;
+            font-size: 1.5em;
+        }
+
+        p {
+            font-size: 0.9em;
+            margin: 0;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin: 15px 0;
+        }
+
+        .social-links a {
+            text-decoration: none;
+            font-size: 1.5em;
+            color: white;
+            transition: transform 0.3s;
+        }
+
+        .social-links a:hover {
+            transform: scale(1.1);
+        }
+
+        .buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .button {
+            text-decoration: none;
+            background-color: #6f8ca8;
+            padding: 10px;
+            border-radius: 15px;
+            color: white;
+            font-size: 1em;
+            transition: background-color 0.3s;
+			border: 2px solid white; /* Add a white outline */
+
+        }
+
+        .button:hover {
+            background-color: #526678;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-card">
+        <div class="profile-header">
+            <img src="https://pbs.twimg.com/profile_images/1806903715024064512/b4BWANUa_400x400.jpg" alt="Profile Picture" class="profile-picture">
+            <h1>Tony Medina</h1>
+            <h4>📍 River Grove, IL <br>
+			Baseball Analytics Coordinator - Schaumburg Boomers <br> 
+			Quality Assurance Analyst - CRSP</h4>
+        </div>
+        <div class="social-links">
+            <a href="mailto:tdmedina21@gmail.com" class="email-link" target="_blank">
+				<img src="https://mailmeteor.com/logos/assets/PNG/Gmail_Logo_512px.png" style="width:35px; height:30px; vertical-align:middle; margin-right:8px;"> </a>
+			<a href="https://twitter.com/tony_baseball_" class="x-link" target="_blank">
+				<img src="https://upload.wikimedia.org/wikipedia/commons/5/57/X_logo_2023_%28white%29.png" style="width:35px; height:35px; vertical-align:middle; margin-right:8px;"> </a>
+			<a href="https://www.linkedin.com/in/tony-medina-30" class="linkedin-link" target="_blank">
+				<img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" style="width:35px; height:35px; vertical-align:middle; margin-right:8px;"> </a>
+
+        </div>
+        <div class="buttons">
+    <a href="https://1drv.ms/b/s!AmrtVyyqeRxsg_1D5RUmYhXEqi5TZw?e=FRbKhe" class="button" target="_blank">
+        <img src="https://imgur.com/pUeyebk.png" style="width:35px; height:35px; vertical-align:middle; margin-right:8px;">
+        <b>Resume</b>
+    </a>
+    <a href="https://github.com/tony-baseball?tab=repositories" class="button" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png"  style="width:35px; height:35px; vertical-align:middle; margin-right:8px;">
+        <b>Github</b>
+    </a>
+    <a href="https://medium.com/@tonybaseball" class="button" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Medium_logo_Monogram.svg/1024px-Medium_logo_Monogram.svg.png" style="width:35px; height:35px; vertical-align:middle; margin-right:8px;">
+        <b>Medium</b>
+    </a> 
+    <!-- <a href="#" class="button" target="_blank">
+        <img src="your-shinyapps-icon-url.png" alt="Shinyapps Logo" style="width:35px; height:35px; vertical-align:middle; margin-right:8px;">
+        tonybaseball.shinyapps.io 
+    </a>-->
+    <a href="https://app.dbathub.com/customers/25-d-bat-dupage/events?event_type%5B%5D=159&event_type%5B%5D=144&staffFilter%5B%5D=325281" class="button" target="_blank">
+        <img src="C:\Users\tdmed\OneDrive\_Shiny\BaseballLessons\www\dbat.png" alt="DBAT Logo" style="width:35px; height:35px; vertical-align:middle; margin-right:8px;">
+        <b>Baseball Lesson Sign-Up</b>
+    </a>
+</div>
+    </div>
+</body>
+</html>
